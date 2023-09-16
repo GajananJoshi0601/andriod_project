@@ -1,0 +1,144 @@
+body{
+    font-family: none;
+    padding: 0;
+    margin: 0;
+    --font-family-base: Android Euclid,Roboto,Helvetica,Arial,sans-serif;
+    --font-family-headings: Android Euclid,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.navbar{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80px; 
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: right  ;
+    padding-right: 60px;
+}
+
+.andriod-logo{
+    margin-left: 20px;
+    height: 30px;      
+}
+
+.subtitle{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+/* subtitle normal and hover color */
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #002a3c;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #5f9ea0;
+}
+/* End of subtitle normal and hover color */
+
+ 
+  /* The heading line for andriod project */
+.heading{
+    font-size: 23px;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 24px;
+    color: aliceblue;
+    background-color: #073042;
+}
+
+.sub-heading{
+    font-weight: 700;
+    color: aliceblue;
+    text-decoration: none;
+}
+.sub-heading:hover{
+    color: #5f9ea0;
+}
+    /* End of heading line */
+
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.mobile-info{
+    display: grid;
+    /* justify-items: center; */
+    align-content: center;
+    justify-content: stretch;
+    /* margin-top: 40px;
+    margin-left: 175px;
+    margin-right: 100px; */
+
+    margin: 40px 120px 0 130px;
+    
+}
+
+
+/* this say is just only to get closer the text of say hello to andriod 13 */
+.say{
+    margin-bottom: -25px;
+}
+.say2{
+    margin-bottom: 25px;
+}
+
+.mobilephones{
+    margin-top: 160px;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+
+.Phone1 , .Phone2, .Phone3{
+    border-radius: 20px;
+}
+.Phone2{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -195px;
+}
+
+.sayhello{
+    letter-spacing: var(--letter-spacing-2);
+    font-size: 50px;
+    font-family: var(--font-family-headings);
+    font-weight: 800;   
+}
+
+.makeall{
+    font-size: 20px;
+    width: 400px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.explore-button{
+    border: none;
+    background-color: #073042;
+    border-radius: 25px;
+    width: 170px;
+    height: 49px;
+    color: aliceblue;
+    
+}
+ 
+.explore-button:hover{
+    color: black;
+    background-color: #5f9ea0;
+
+}
+
+/* on next div class as container2 */
+.man-image{
+    margin: 135px auto auto 100px;
+    border-radius: 30px;
+}
